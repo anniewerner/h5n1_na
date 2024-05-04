@@ -1,0 +1,16 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region UFK99042.1 1 469
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+UFK99042.1	Genbank	region	1	469	.	+	.	ID=UFK99042.1:1..469;Dbxref=taxon:11320;Name=6;collection-date=27-Sep-2021;country=Czech Republic;gbkey=Src;isolate=18520-1;isolation-source=2021-09-27;mol_type=unassigned;nat-host=goose;segment=6;serotype=H5N1;strain=A/goose/Czech Republic/18520-1/2021
+UFK99042.1	Genbank	polypeptide	1	469	.	+	.	ID=id-UFK99042.1:1..469;calculated_mol_wt=51476;gbkey=Prot;product=neuraminidase
+UFK99042.1	Genbank	biological_region	85	465	.	+	.	ID=id-UFK99042.1:85..465;Dbxref=CDD:271235;Name=Influenza_NA;Note=Sialidase or neuraminidase (EC 3.2.1.18) of Influenza viruses A and B;gbkey=Region
+UFK99042.1	Genbank	region	98	465	.	+	.	ID=id-UFK99042.1:98..465;Dbxref=CDD:271235;Note=tetramer interface [polypeptide binding];gbkey=Site;is_ordered=true
+UFK99042.1	Genbank	biological_region	117	176	.	+	.	ID=id-UFK99042.1:117..176;Dbxref=CDD:271235;Name=Sialidase propeller 1;Note=Sialidase propeller 1 [structural motif];gbkey=Region
+UFK99042.1	Genbank	biological_region	178	215	.	+	.	ID=id-UFK99042.1:178..215;Dbxref=CDD:271235;Name=Sialidase propeller 2;Note=Sialidase propeller 2 [structural motif];gbkey=Region
+UFK99042.1	Genbank	biological_region	223	269	.	+	.	ID=id-UFK99042.1:223..269;Dbxref=CDD:271235;Name=Sialidase propeller 3;Note=Sialidase propeller 3 [structural motif];gbkey=Region
+UFK99042.1	Genbank	biological_region	277	315	.	+	.	ID=id-UFK99042.1:277..315;Dbxref=CDD:271235;Name=Sialidase propeller 4;Note=Sialidase propeller 4 [structural motif];gbkey=Region
+UFK99042.1	Genbank	biological_region	345	393	.	+	.	ID=id-UFK99042.1:345..393;Dbxref=CDD:271235;Name=Sialidase propeller 5;Note=Sialidase propeller 5 [structural motif];gbkey=Region
+UFK99042.1	Genbank	biological_region	401	448	.	+	.	ID=id-UFK99042.1:401..448;Dbxref=CDD:271235;Name=Sialidase propeller 6;Note=Sialidase propeller 6 [structural motif];gbkey=Region
+
