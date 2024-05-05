@@ -53,28 +53,9 @@
       "ignoredStopCodons": []
     }
   },
-  "cdsOrderPreference": [
-    "NA"
-  ],
   "maintenance": {
-    "website": [
-      "https://nextstrain.org",
-      "https://clades.nextstrain.org"
-    ],
-    "documentation": [
-      "https://github.com/h5n1_na/reference_dataset"
-    ],
-    "source code": [
-      "https://github.com/h5n1_na/reference_dataset"
-    ],
-    "issues": [
-      "https://github.com/h5n1_na/issues"
-    ],
-    "organizations": [
-      "Nextstrain"
-    ],
     "authors": [
-      "Pekosz Laboratory, JH-CEIRR"
+      "Pekosz Lab <https://pekoszlab.com/>"
     ]
   },
   "nucMutLabelMap": {},
@@ -95,8 +76,8 @@
           "cds": "NA",
           "ranges": [
             {
-              "begin": 33,
-              "end": 470
+              "begin": 1,
+              "end": 469
             }
           ]
         }
