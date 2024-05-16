@@ -8,18 +8,15 @@
     "minSeedCover": 0.1
   },
   "compatibility": {
-    "cli": "3.0.0-alpha.0",
-    "web": "3.0.0-alpha.0"
+    "cli": "3.5.0-alpha.0",
+    "web": "3.5.0-alpha.0"
   },
   "defaultCds": "NA",
   "files": {
-    "changelog": "CHANGELOG.md",
     "examples": "sequences.fasta",
     "genomeAnnotation": "genome_annotation.gff3",
     "pathogenJson": "pathogen.json",
-    "readme": "README.md",
-    "reference": "reference.fasta",
-    "treeJson": "tree.json"
+    "reference": "reference.fasta"
   },
   "qc": {
     "privateMutations": {
@@ -86,7 +83,34 @@
         "N[^P][ST]"
       ]
     }
-  ],
+    {
+    "name": "2BS loops",
+    "nameShort": "2bs",
+    "nameFriendly": "2Bs loop motifs",
+    "description": "genotype of the loops that make up the secondary binding site",
+    "includeCdses": [
+      {
+        "cds": "NA",
+        "ranges": [
+          {
+            "begin": 366,
+            "end": 373
+          }
+          {
+            "begin": 399,
+            "end": 404
+          }
+          {
+            "begin": 430,
+            "end": 434
+          }
+        ],
+      },
+    ],  
+      "motifs": [
+        "[^X][^X][^X][^X][^X][^X][^X][^X][^X]"
+      ]
+    },
   "attributes": {
     "name": "Influenza A H5N1 NA",
     "segment": "na",
